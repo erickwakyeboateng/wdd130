@@ -45,13 +45,8 @@ nav, p, section, article {
     position: relative;
 }
 
-.hero h1 {
+.hero h1 article {
     position: absolute;
-    top: 20%;
-    left: 10%;
-    color: white;
-    font-size: 3rem;
-    z-index: 2;
 }
 
 .hero img {
