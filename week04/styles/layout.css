@@ -13,6 +13,11 @@ header {
     height: auto;
 }
 
+#history img{
+    width:64px;
+
+}
+
 #logo {
     font-size: 2rem;
     font-family: Acme, Arial, sans-serif;
