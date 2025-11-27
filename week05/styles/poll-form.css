@@ -1,0 +1,117 @@
+html {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: inherit;
+  color: black;
+  font-size: 1.2rem;
+  background: #fff;
+}
+
+header {
+  margin: 0 auto;
+  width: 650px;
+}
+
+h1 {
+  color: navy;
+  font-size: 1.5rem;
+  text-align: center;
+  margin: 1rem;
+}
+
+form {
+  width: 650px;
+  margin: 0 auto;
+  padding: 1rem;
+  border: 1px solid rgb(0 0 0 0);
+  border-radius: 0.5rem;
+  background-color: #eee;
+  display: grid;
+}
+
+fieldset {
+  display: grid;
+  grid-gap: 0.5rem;
+  margin: 1rem;
+  border: 1px solid regb(0 0 0 / 0.2);
+  padding: 1rem;
+}
+
+legend {
+  margin: 0 auto;
+  color: navy;
+  padding: 0.5rem;
+  font-size: 1.3rem;
+}
+
+label,
+input,
+button,
+select,
+textarea {
+  font-family: "Courier New", Courier, monospace;
+}
+
+label {
+  text-align: right;
+  padding-right: 0.1rem;
+}
+
+input,
+select,
+textarea {
+  padding: 0.3rem;
+  font-size: 1.2rem;
+}
+
+input[type="checkbox"] {
+  width: 22px;
+  height: 22px;
+  vertical-align: bottom;
+}
+
+button {
+  margin: 0 auto;
+  padding: 20px;
+  color: #fff;
+  background-color: navy;
+  font-size: 1.3rem;
+  border: none;
+}
+
+button:hover {
+  background-color: darkgreen;
+  color: #fff;
+}
+
+footer {
+  text-align: center;
+  padding: 1.3rem;
+  font-size: 0.8rem;
+  width: 650px;
+  color: #777;
+  border-top: 1px solid #ccc;
+  margin: 1rem auto 0;
+}
+
+.form-item {
+  display: grid;
+  align-items: center;
+}
+
+.column1 {
+  grid-template-columns: 3fr 1fr;
+}
+
+.column2 {
+  grid-template-columns: 1fr 2fr;
+}
