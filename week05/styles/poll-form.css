@@ -115,3 +115,10 @@ footer {
 .column2 {
   grid-template-columns: 1fr 2fr;
 }
+
+footer {
+  margin: 10px;
+  border: 1px solid #000;
+  padding: 10px;
+  background-color: #eee;
+}
