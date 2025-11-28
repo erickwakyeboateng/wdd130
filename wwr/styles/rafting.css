@@ -257,3 +257,9 @@ button {
 button:hover {
   background-color: darkgreen;
 }
+
+article h2 {
+  text-align: center;
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+}
