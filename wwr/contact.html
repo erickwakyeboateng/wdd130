@@ -37,8 +37,8 @@
                 </p>
             </article>
         </div>
-        <section class="contact-section">
-            <div class="contact">
+        <section class="contact-us">
+            <div class="company-info">
                 <h2>White Water Rafting Company</h2>
                 <p>123 Main River Street<br>
                     Kolob, California<br>
@@ -46,79 +46,70 @@
                     info@whitewater.com
                 </p>
             </div>
-            <div class="talk-us">
+            <div class="map-container">
                 <iframe
                     src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d13355.692029547989!2d-0.08561764955593079!3d5.61550662605986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sgh!4v1764259050614!5m2!1sen!2sgh"
-                    allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
 
-                <div class="contact-form">
-                    <form action="submitForm.php" method="POST">
+            <div class="contact-form">
+                <form action=" " method="POST">
+                    <div class="form-row">
                         <label for="name" class="column1">Name </label>
-                        <input type="text" id="name" placeholder="John Smith">
-                        <br>
-
+                        <input type="text" id="name" placeholder="John Smith" required>
+                    </div>
+                    <div class="form-row">
                         <label for="email" class="column1">E-mail</label>
-                        <input type="email" id="email" placeholder="example@example.com">
-                        <br>
-
-                        <label class="column1">Message Purpose</label>
+                        <input type="email" id="email" placeholder="example@example.com" required>
+                    </div>
+                    <div class="radio-group-container">
+                        <label class="form-row">Message Purpose</label>
                         <div class="radio-group">
-                            <div>
-                                <input type="radio" id="general_inquiry" name="message_purpose" value="general inquiry">
-                                <label for="general_inquiry">General Inquiry</label>
-                            </div>
-                            <div>
-                                <input type="radio" id="reservation_question" name="message_purpose"
-                                    value="reservation question">
-                                <label for="reservation_question">Reservation Question</label>
-                            </div>
-                            <div>
-                                <input type="radio" id="website_suggestion" name="message_purpose"
-                                    value="website suggestion">
-                                <label for="website_suggestion">Website Suggestion</label>
-                            </div>
+                            <label><input type="radio" name="message_purpose" value="General Inquiry"> General
+                                Inquiry</label>
+                            <label><input type="radio" name="message_purpose" value="Reservation Question"> Reservation
+                                Question</label>
+                            <label><input type="radio" name="message_purpose" value="Website Suggestion"> Website
+                                Suggestion</label>
                         </div>
-
-                        <div>
-                            <label for="message">Message</label>
-                            <textarea name="message" id="message" rows="4"></textarea>
-                        </div>
+                    </div>
 
 
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message" rows="4"></textarea>
+
+
+                    <div class="checkbox-submitigroup">
                         <label for="newsletter">
-                            <input type="checkbox" id="newsletter" name="newsletter"> Please Subscribe me to the monthly
+                            <input type="checkbox" id="newsletter" name="newsletter"> Please Subscribe me to the
+                            monthly
                             newsletter
                         </label><br>
 
                         <button type="submit">Get in Touch!</button>
-                    </form>
-                </div>
+                    </div>
+                </form>
             </div>
+
         </section>
 
 
-        <section class="adventures">
+        <section class="employees">
             <h2>We Are Here to Serve You</h2>
             <figure>
-                <img src="images/los_dientes_del_diablo.jpeg" alt="Los Dientes del Diablo">
-                <figcaption>Los Dientes del Diablo</figcaption>
+                <img src="images/eric-boateng.webp" alt="eric boateng">
+                <figcaption>Eric Boateng, C.E.O</figcaption>
             </figure>
             <figure>
-                <img src="images/big_mallard.jpeg" alt="Big Mallard">
-                <figcaption>Big Mallard</figcaption>
+                <img src="images/phidelia-boateng.webp" alt="phidelia boateng">
+                <figcaption>Phidelia Boateng, C.F.O</figcaption>
             </figure>
             <figure>
-                <img src="images/half_day_adventure.jpeg" alt="Half Day Adventure">
-                <figcaption>Half Day Adventure</figcaption>
+                <img src="images/Jones_anderson.webp" alt="Jones Anderson">
+                <figcaption>Jones Anderson, C.T.O</figcaption>
             </figure>
-            <figure>
-                <img src="images/kind_rapids.jpeg" alt="King Rapids">
-                <figcaption>King Rapids</figcaption>
-            </figure>
-            <figure>
-                <img src="images/thrill_seeker.jpeg" alt="Thrill Seeker">
-                <figcaption>Thrill Seeker</figcaption>
-            </figure>
+
         </section>
 
     </main>
