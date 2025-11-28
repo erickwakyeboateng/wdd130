@@ -158,7 +158,6 @@ article {
   gap: 2rem;
   width: 90%;
   margin-left: 5px;
-  padding-top: -5rem;
 }
 .company-info {
   grid-column: span 2;
