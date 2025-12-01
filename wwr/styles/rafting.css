@@ -22,12 +22,20 @@ header {
 }
 
 nav {
-  justify-self: end;
-  justify-content: space-evenly;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+  justify-content: flex-end;
 }
 nav a {
   text-decoration: none;
   color: #fff;
+}
+
+nav a:hover {
+  text-decoration: underline;
 }
 
 body {
