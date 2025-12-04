@@ -27,7 +27,7 @@ nav {
   align-items: center;
   gap: 1rem;
   padding: 1rem;
-  justify-content: flex-end;
+  justify-content: space-evenly;
 }
 nav a {
   text-decoration: none;
@@ -76,6 +76,73 @@ article {
   display: block;
   width: 100%;
   height: auto;
+}
+.hero-cta {
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: var(--accent2-color);
+  color: var(--primary-color);
+  padding: 0.8rem 2rem;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  margin-top: 5rem;
+  transition: background-color 0.3s ease;
+}
+
+.hero-cta:hover {
+  background-color: darkgoldenrod;
+  color: #fff;
+}
+
+
+.grid-intro {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  padding: 4rem 2rem;
+  background-color: #f0f4f8;
+  align-items: center;
+}
+
+.grid-item h2 {
+  margin-bottom: 0.5rem;
+  color: var(--primary-color);
+  text-align: center;
+
+}
+
+.grid-item p {
+  line-height: 1.6;
+  text-align: center;
+
+}
+
+.grid-item img,
+img.grid-item {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.more-btn {
+  display: block;
+  margin-top: 1rem;
+  padding: 0.6rem 1.5rem;
+  background-color: var(--accent2-color);
+  color: var(--primary-color);
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+
+}
+
+
+.more-btn:hover {
+  background-color: darkgoldenrod;
+  color: #fff;
 }
 
 .hero h1 {
@@ -271,3 +338,155 @@ article h2 {
   font-size: 1.3rem;
   margin-bottom: 0.5rem;
 }
+
+.newsletter {
+  background-color: var(--accent1-color);
+  color: #fff;
+  text-align: center;
+  padding: 3rem 1rem;
+}
+
+.newsletter h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color:var(--accent2-color)
+}
+
+.newsletter p {
+  margin-bottom: 2rem;
+  font-size: 1.1rem;
+}
+
+.newsletter form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.newsletter input[type="text"],
+.newsletter input[type="email"] {
+  width: 100%;
+  padding: 0.8rem;
+  border: none;
+  border-radius: 5px;
+}
+
+.newsletter button {
+  padding: 0.8rem 2rem;
+  border: none;
+  border-radius: 5px;
+  background-color: var(--accent2-color);
+  color: var(--primary-color);
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.newsletter button:hover {
+  background-color: darkgoldenrod;
+  color: #fff;
+}
+
+.cta-section {
+  text-align: center;
+  padding: 3rem 1rem;
+  background-color: #f0f4f8;
+  border-radius: 8px;
+}
+
+.cta-section h1 {
+  font-size: 2rem;
+  color: var(--primary-color);
+  margin-bottom: 1rem;
+}
+
+.cta-section p {
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+}
+
+.cta-btn {
+  display: inline-block;
+  padding: 0.8rem 2rem;
+  background-color: var(--accent2-color);
+  color: var(--primary-color);
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.cta-btn:hover {
+  background-color: darkgoldenrod;
+  color: #fff;
+}
+
+/* Trip Descriptions Grid */
+.trips-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 2rem;
+  padding: 3rem 1rem;
+}
+
+.trip-card {
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  text-align: center;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.trip-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.trip-card img {
+  width: 100%;
+  border-radius: 8px;
+  height: auto;
+  margin-bottom: 1rem;
+}
+
+.trip-card h2 {
+  margin: 0.5rem 0;
+}
+
+/* Trips Table Section */
+.trip-table-section {
+  margin: 3rem 0;
+  padding: 2rem 1rem;
+  background-color: #f7f7f7;
+  border-radius: 8px;
+}
+
+.trip-table-section h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.trip-table-section table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.trip-table-section th,
+.trip-table-section td {
+  padding: 1rem;
+  text-align: center;
+  border: 1px solid #ccc;
+}
+
+.trip-table-section th {
+  background-color: var(--primary-color);
+  color: #fff;
+}
+
+.trip-table-section tr:nth-child(even) {
+  background-color: #e9e9e9;
+}
+
