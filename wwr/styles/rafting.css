@@ -423,7 +423,7 @@ article h2 {
   color: #fff;
 }
 
-/* Trip Descriptions Grid */
+
 .trips-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
@@ -456,7 +456,6 @@ article h2 {
   margin: 0.5rem 0;
 }
 
-/* Trips Table Section */
 .trip-table-section {
   margin: 3rem 0;
   padding: 2rem 1rem;
